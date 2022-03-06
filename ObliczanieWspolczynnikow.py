@@ -15,17 +15,6 @@ def oblicz_a(dane_x,dane_y,n):
     mianownik=(n*suma_xkw)-(suma_x**2)
     return licznik/mianownik
 
-def oblicz_b(dane_x,dane_y,a):
-    n=len(dane_x)
-    suma_x=0
-    suma_y=0
-    sredni_x=0
-    sredni_y=0
-    for i in range(n):
-        sredni_x+=dane_x[i]
-        sredni_y+=dane_y[i]
-    return sredni_x,sredni_y
-
 def main():
     dane_x=[200,160,500,311,863.5]
     dane_y=[10,9,28,22,42]
