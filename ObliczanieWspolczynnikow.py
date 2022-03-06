@@ -20,7 +20,7 @@ def main():
     dane_y=[10,9,28,22,42]
     n=len(dane_x)
     a = oblicz_a(dane_x,dane_y,n)
-    b = (sum(dane_y)/n)-a*(sum(dane_x)/n)
+    b = (sum(dane_y)/n)-(a*(sum(dane_x)/n))
     
     print(f'Współczynnik a={round(a,3)}, współczynnik b={round(b,3)}, wykres funkcji liniowej jest postaci y={round(a,3)}x+{round(b,3)}')
     key=int(input('czy chcesz narysować wykres funkcji regresji? 1-TAK 0-NIE'))
