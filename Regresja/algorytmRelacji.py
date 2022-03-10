@@ -2,10 +2,7 @@ import numpy as np
 import random
 import math
 import matplotlib.pyplot as plt
-import networkx as nx
-import tqdm
 
-# Jeśli każdy zna każdego, to macierz startowa ma zera na głównej diagonali i jedynki wszędzie indziej
 def macierz_startowa(n):
     A = [[1 for i in range(n)] for j in range(n)]
     for i in range(n):
@@ -31,7 +28,6 @@ def nowe_grono(A, N, m):
         for j in range(n):
             final_matrix[i][j] = A[i][j]
     for i in range(n, N):
-        # Wybieram znajomych "i" spośród wszystkich poza "i"
         new_friends = random.sample(range(i), m)
         for j in new_friends:
             final_matrix[i][j] = 1
@@ -44,7 +40,6 @@ def p(k, m):
     return 0
 
 def bledy():
-    # Pomocnicza funkcja obliczająca błędy w pojedynczej symulacji
     N = 100
     m = 3
     n = 5
