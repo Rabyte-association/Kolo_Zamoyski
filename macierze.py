@@ -45,10 +45,6 @@ def main():
     if B[sprawdz1][sprawdz2]==0:
         print("te osoby się nie znają")
 
-    x=srednie_bledy(1000)
-    plt.scatter(range(len(x)), x)
-    plt.show()
-
 
 if __name__ == "__main__":
     main()
