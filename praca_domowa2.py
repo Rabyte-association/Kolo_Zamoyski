@@ -16,7 +16,7 @@
 #
 import random
 i=random.randint(1,7)
-j=random.randint((1,5)
+j=random.randint(1,5)
 #
 # Wynik 2:
 #
