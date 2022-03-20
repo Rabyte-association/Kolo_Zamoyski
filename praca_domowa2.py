@@ -36,7 +36,7 @@ j=random.randint(1,5)
 # 3. Stworzenie drugiej macierzy reprezentującej miejsca w drugim samolocie (Też zajmujemy losowo tym razem 13 miejsc).
 # Wprowadzenie funkcji porównującej te dwa samoloty tzn. funkcja wykonuje dodawanie i odejmowanie macierzy. 
 # W przypadku gdy w obydwu samolotach to samo miejsce jest zajęte (1 i 1) dodawanie zwraca 1.
-# W przypadku gdy w pierwszym samolocie to samo miejsce jest wolne, a w drugim zajęte (0 i 1) odejmowanie zwraca 0.
+# W przypadku gdy w pierwszym samolocie to samo miejsce jest wolne, a w drugim zajęte (0 i 1) odejmowanie zwraca 1.
 # 4.(*) Narysowanie wykresu rozproszenia, który bierze dane z obydwu samolotów i w ten sposób narysuje wykres, w którym więcej 
 # punktów (zajętych miejsc) będzie w samolocie, w którym zajęto więcej miejsc. Przykładowy wykres rozproszenia:
 #                 
